@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=VT323&display=swap');
+
+*{margin: 0;
+  padding: 0 ;}
+
+  body{
+    background-color: black;
+    color:limegreen;
+    box-sizing: border-box;
+  }
+header{
+  width: 100%;
+}
+  .logo{
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+  }
+
+
+
+  .container{
+    display:flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    gap: 10px 10px;
+  }
+  .CampoDeEntrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  input{
+    width: 680px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    font-size: 38px; 
+    color: limegreen;
+    padding: 5px;
+    font-family: 'VT323', monospace;
+    margin-left: 30px;
+}
+input::placeholder{
+    color:rgba(50, 205, 50, 0.555) ;   
+}
+input:focus{
+  outline: none;
+}
+.CampoDeEntrada_LinhaDoInput{
+  height: 1px;
+  width: 680px;
+  background-color:rgba(50, 205, 50, 0.555) ;
+  margin-left: 30px;
+}
+
+h5{
+ margin-bottom: 2px; 
+}  
+.ImagemExclamaçao{
+width: 10px;
+height: 10px;
+padding-right:5px ;
+}
+
+.CampoDeEntrada_botao{
+  width: 328px;
+  height: 68px;
+  border-radius: 24px;
+  font-size: 19px; 
+}
+
+.CampoDeEntrada_botao:hover{
+border-color: rgba(50, 205, 50, 0.555);
+background-color: black;
+color: limegreen;
+transition: 0.4s;
+cursor:pointer;
+}
+.CampoDeEntrada_botao:hover .botoes_imgcriptografar{
+  width: 15px;
+  height: 14px;
+  padding-right:3px;
+}
+.botoes_imgcriptografar{
+  width: 0px;
+  height: 0px;
+}
+
+
+.CampoDeSaida{
+  width: 400px;
+  height: 900px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px ;
+  margin-bottom: 30px;
+  font-family: 'VT323', monospace;
+  font-size: 30px ;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(50, 205, 50, 0.555);
+  margin: 10px;
+}
+
+.CampoDeOutput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CampoDeSaida_texto{
+ font-family: none;
+ font-size: 15px;
+ text-align: center;
+ padding:10px,10px;
+}
+.CampoDeSaida_imagem{
+  width: 200px;
+  height: 200px;
+  background-color:limegreen; ;
+  border-radius: 200px;
+  
+}
+
+
+  .CampoDeSaida_botao{
+    width: 336px;
+    height: 68px;
+    border-radius: 24px;
+    font-size: 19px; 
+  }
+  .CampoDeSaida_botao:hover{
+  border-color: rgba(50, 205, 50, 0.555);
+  background-color: black;
+  color: limegreen;
+  transition: 0.4s;
+  cursor:pointer;
+  }
+  .CampoDeSaida_botao:hover .CampoDeSaida_botao_imgcopiar{
+    width: 16px;
+    height: 16px;
+    padding-right:3px;
+  }
+  .CampoDeSaida_botao_imgcopiar{
+    width: 0px;
+    height: 0px;
+  }
+
+
+  footer{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .RedeSocial_linkedin{
+    width: 55px;
+    height: 55px;
+    
+  }
+  .RedeSocial_github{
+    width: 45px;
+    height: 45px;
+    margin-bottom:5px ;
+  }
+  .RedeSocial_facebook{
+    width: 55px;
+    height: 55px
+  }
+  a{text-decoration: none }
+
+
+
+
+
+  @media (max-width: 1131px) {
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .container_tablet{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .CampoDeEntrada_LinhaDoInput{
+      margin-bottom: 400px;
+    }
+    .CampoDeSaida{
+      width: 696px;
+      height: 400px;
+      margin: 30px;
+    }
+   
+   
+    input{
+      padding-top: 100px;
+    }
+    .direitosAutorais{
+      padding-left: 30px;
+    }
+    .CampoDeSaida{
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+    footer{
+      width: 100%;
+    }
+  }
+
+
+
+  @media (max-width: 428px) {
+ .logo{
+    width: 110px;
+    height: 110px;
+   }
+  
+   input{
+      width: auto;
+      margin-left: 0px;
+    } 
+    .CampoDeEntrada_LinhaDoInput{
+      width: auto;
+      margin-left: 0px;
+    }
+    .CampoDeEntrada_botao{
+      width: 180px;
+      padding: 10px;
+    }
+   
+    .CampoDeSaida{
+      margin-bottom: 50px;
+      margin-top: 50px;
+      width: auto;
+      height: auto;
+      padding: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .CampoDeOutput{
+      padding: 10px;
+    }
+  
+    .CampoDeSaida_botao{
+      width: 95px;
+      height: 50px;
+    }
+    footer{
+      height: auto;
+      width: 95%; 
+    }
+   
+   }
+
+
+   @media (max-width: 375px) {
+    .logo{
+       width: 110px;
+       height: 110px;
+       padding-left:5px ;
+     
+      }
+      input{
+        width: auto;
+        margin-left: 0px;
+      } 
+      .CampoDeEntrada_LinhaDoInput{
+        width: auto;
+        margin-left: 0px;
+      }
+  
+       .CampoDeSaida{
+         margin-bottom: 50px;
+         margin-top: 50px;
+         width: auto;
+         height: auto;
+         padding: 20px;
+         align-items: center;
+         
+       }
+       .CampoDeEntrada_botao{
+        font-size:16px ;
+        width: 152px;
+      
+       }
+       .CampoDeSaida_botao{
+         width: 100px;
+         height: 50px;
+         font-size:16px ;
+       }
+       footer{
+         width: 358px; 
+         padding-left: 10px;
+       }
+       
+      
+      }
+
+      @media (max-width: 375px) {
+        .container{
+          padding-left:32px
+        }
+
+
+
+
+
+
+
+
+
+
+      }

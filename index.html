@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecss.css">
+    <title>Criptografia</title>
+</head>
+
+<body>
+
+    <main class="container_tablet">
+      <header>
+        <img src="./imagi/imagem_2024-01-25_125825860-removebg-preview.png" alt="logo" class="logo">
+    </header>
+    <main class="container">
+        <section class="CampoDeEntrada">
+            <section class="input">
+                <input type="text" placeholder="Insira seu texto..."> 
+                <div class="CampoDeEntrada_LinhaDoInput"></div>
+        </section>
+       
+        
+        <section class="botoes">
+                <h5><img src="./imagi/exclamação__1_-removebg-preview.png" class='ImagemExclamaçao'alt="">Apenas letras minusculas e sem acento</h5>
+                <button onclick="criptografar()" class="CampoDeEntrada_botao"><img src="./imagi/imagemdecadeadofechado.png" class="botoes_imgcriptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="CampoDeEntrada_botao"><img src="./imagi/imagemdecadeadoaberto.png" class="botoes_imgcriptografar">Descriptografar</button>
+            </section>
+        </section>
+        <section class="CampoDeSaida" id="CampoDeSaida"> 
+         <div id="CampoDeOutput" class="CampoDeOutput">
+                <img class="CampoDeSaida_imagem" src="./imagi/cadeadocriptografado (2).png" alt=""> 
+                <div class="CampoDeSaida_texto">
+            <h1 ><strong>Nenhuma mensagem encontrada</strong></h1>
+            <h4 >Insira uma mensagem no campo de texto</h4>
+                </div>
+        </div>          
+            <button onclick="copiarTexto()" class="CampoDeSaida_botao" id="copy"><img src="./imagi/imgcopiar.png" class="CampoDeSaida_botao_imgcopiar">Copiar</button>
+        </section>
+
+    </main>
+        <footer>
+        <div class="direitosAutorais">
+            Todos os direitos reservados © 2024 Gustavo José
+        </div>
+        <div class="rede">
+<a href="https://www.linkedin.com/in/gustavo-josé-soares-santana-7213aa240/">
+<img src="./imagi/png-transparent-computer-icons-linkedin-social-media-social-media-text-rectangle-logo-removebg-preview.png" alt="Linkedin" class="RedeSocial_linkedin">
+</a>
+<a href="https://github.com">
+<img src="./imagi/github_logo_icon_143772.png" alt="github" class="RedeSocial_github">
+</a>
+<a href="https://www.facebook.com/groups/357495575090156/?multi_permalinks=862528417920200&notif_id=1612996874205269&notif_t=group_highlights&ref=notif">
+    <img src="./imagi/Icone do face bg.png" alt="faceboock" class="RedeSocial_facebook">
+</a>
+</div>
+    </footer>
+    
+    <script src="javascript.js"></script>
+</main>
+    
+</body>
+
+</html>

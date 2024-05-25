@@ -21,7 +21,7 @@ O programa tem o intuito de criptografar e descriptografar mensagens. O usuário
 3. Insira a mensagem no campo: "Insira sua mensagem"
 4. Clique em Criptografar.
 5. Clique em Copiar
-Pronto agora você consegue mandar em todos os canais de comunção sua mensagem criptografada.
+Pronto agora você consegue mandar em todos os canais de comunicação sua mensagem criptografada.
 6. Caso queira ver o que você escreveu: Copie a mensagem criptografada e cole no campo de texto, agora clique em Descriptografar. Agora você consegue ler a mensagem.
 <br>
 

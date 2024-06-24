@@ -1,4 +1,12 @@
 # 🔐Criptografia de Mensagens🔐
+
+
+<br>
+<div align="center">
+<img src="https://github.com/gustavojoze/Projeto_Criptografar_Menssagem/assets/157230452/ec0c54d8-4d4e-4436-9d2c-bd07ebb7f78b" width="1000px" heigth="1000px"/>
+</div>
+Foto do programa
+<br>
 <br>
 
 ## 📝Descrição
